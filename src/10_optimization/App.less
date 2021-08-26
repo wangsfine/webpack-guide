@@ -1,0 +1,43 @@
+@sidebarWidth: 200px;
+@navbarHeight: 60px;
+@footerHeight: 20px;
+
+.app {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: @sidebarWidth;
+    overflow: hidden;
+    position: relative;
+}
+.app_sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: @sidebarWidth;
+    height: 100%;
+}
+.app_container {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: @navbarHeight;
+    padding-bottom: @footerHeight;
+    position: relative;
+}
+.app_navbar {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: @navbarHeight;
+}
+.app_footer {
+    position: absolute;
+    width: 100%;
+    height: @footerHeight;
+    bottom: 0;
+}
+.app_main {
+    width: 100%;
+    height: 100%;
+}
