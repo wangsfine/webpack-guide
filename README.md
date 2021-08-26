@@ -12,9 +12,9 @@
 * externals
 * optimization
 
-**为方便保存webpack.config.js，封装了cli.js,提供bpack指令，实用如下：**
+**为方便保存webpack.config.js，封装了cli.js，提供bpack指令，使用如下：**
 ```
 1、npm link
-2、开发环境：bpack --config=plugin --server // 其中plugin指定学习内容目录名称，可以是源码目录中的任何目录名称
-3、生产环境 bpack --config=plugin
+2、开发环境：bpack --config=optimization --server // 其中"optimization"指定学习内容目录名称，可以是源码目录中的任何目录名称
+3、生产环境 bpack --config=optimization
 ```
